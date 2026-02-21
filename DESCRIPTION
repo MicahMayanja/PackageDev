@@ -14,6 +14,10 @@ BugReports: https://github.com/MicahMayanja/PackageDev/issues
 Depends:
     R (>= 4.0)
 Suggests:
-    devtools
-    testthat
-    usethis    
+    devtools,
+    testthat,
+    usethis,
+    roxygen2 
+Imports:
+    dplyr,
+    pharmaversesdtm
