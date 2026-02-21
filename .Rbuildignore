@@ -1,2 +1,4 @@
+^renv$
+^renv\.lock$
 ^PackageDev\.Rproj$
 ^\.Rproj\.user$
