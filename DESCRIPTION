@@ -14,10 +14,11 @@ Depends:
     R (>= 4.0)
 Suggests:
     devtools,
-    testthat,
+    testthat (>= 3.0.0),
     usethis,
-    roxygen2 
+    roxygen2
 Imports:
     dplyr,
     pharmaversesdtm,
     here
+Config/testthat/edition: 3

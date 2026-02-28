@@ -1,7 +1,7 @@
 #' import_dm
 #'
 #' @returns DM dataset selected for specific variables
-#' @importFrom pharmaversesdtm dm
+#' @import pharmaversesdtm 
 #' @import dplyr
 #'
 #' @export
@@ -13,6 +13,8 @@ import_dm <- function() {
     dplyr::select(
       USUBJID, AGE, AGEU, SEX, RACE, ARM
     ) 
+  
+  return(df)
 
 
 }
